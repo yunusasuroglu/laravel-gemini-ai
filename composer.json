@@ -1,6 +1,7 @@
 {
     "name": "yunusasuroglu/laravel-gemini-ai",
     "description": "A package to interact with Gemini API without routes",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "yunusasuroglu\\Gemini\\": "src/"
@@ -22,7 +23,6 @@
             }
         ]
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Yunus Emre Aşuroğlu",

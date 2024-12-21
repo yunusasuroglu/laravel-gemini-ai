@@ -1,0 +1,21 @@
+{
+    "name": "yunusasuroglu/laravel-gemini-ai",
+    "description": "A package to interact with Gemini API without routes",
+    "autoload": {
+        "psr-4": {
+            "yunusasuroglu\\Gemini\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "yunusasuroglu\\Gemini\\GeminiServiceProvider"
+            ]
+        }
+    }
+}

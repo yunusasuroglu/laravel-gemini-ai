@@ -22,6 +22,14 @@
             }
         ]
     },
+    ,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yunus Emre Aşuroğlu",
+            "email": "asurogluyunus@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

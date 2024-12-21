@@ -7,15 +7,21 @@
         }
     },
     "require": {
-        "php": ">=7.4",
-        "laravel/framework": "^8.0",
-        "guzzlehttp/guzzle": "^7.0"
+        "php": "^8.0"
     },
     "extra": {
         "laravel": {
             "providers": [
                 "yunusasuroglu\\Gemini\\GeminiServiceProvider"
             ]
-        }
-    }
+        },
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/yunusasuroglu/bulk-mailler"
+            }
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
